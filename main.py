@@ -11,10 +11,10 @@ config = ConfigParser()
 config.read('settings.ini')
 
 if config.has_option("SETTINGS", "delay_between_tries"):
-    delay_between_tries = config["SETTINGS"]["delay_between_tries"]
+    delay_between_tries = float(config["SETTINGS"]["delay_between_tries"])
 
 if config.has_option("SETTINGS", "delay_after_succeding"):
-    delay_after_succeding = config["SETTINGS"]["delay_after_succeding"]
+    delay_after_succeding = float(config["SETTINGS"]["delay_after_succeding"])
 
 #Main loop
 while True:
