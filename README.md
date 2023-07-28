@@ -1,4 +1,4 @@
-# WabbajackSkip
+# Wabbajack-Skip
 Simple tool for automatically pressing the "SLOW DOWNLOAD" button on Nexus Mods while using [Wabbajack](https://github.com/wabbajack-tools/wabbajack).
 This isn't an alternative to [nexus premium](https://users.nexusmods.com/account/billing/premium). This is not a perfect solution and you will still be limited by download speed.
 # To Run
