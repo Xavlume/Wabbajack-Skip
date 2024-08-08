@@ -1,4 +1,4 @@
-from pyautogui import locateOnScreen, center, click
+from pyautogui import locateOnScreen, center, click, position, moveTo
 from time import sleep
 from configparser import ConfigParser
 
@@ -28,6 +28,8 @@ while True:
 
     download_point_location = center(download_location)
 
+    user_mouse_coords = position()
     click(download_point_location.x, download_point_location.y)
+    moveTo(user_mouse_coords.x, user_mouse_coords.y)
 
     sleep(delay_after_succeding)
