@@ -9,4 +9,4 @@ You could also download the source code and run **python main.py** if you have p
 
 Finally run Wabbajack and sit back while WabbajackSkip clicks Away!
 # Settings
-To edit the built-in delay between tries and successful clicks, edit the **settings.ini** file next to main.py or main.exe.
+To edit the built-in delay between tries and successful clicks, or to add more button screenshots edit the **settings.ini** file next to main.py or main.exe.
